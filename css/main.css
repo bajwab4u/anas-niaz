@@ -649,8 +649,14 @@ hr {
 }
 .navbar .navbar-nav .nav-link {
   color: #e6e6e6;
-  font-size: 15px;
+  font-size: 18px;
+
+  font-weight: 600;
   padding: 0;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  text-decoration: underline;
 }
 .navbar .navbar-nav .nav-item:not(:last-child) .nav-link {
   margin-right: 32px;
@@ -700,7 +706,7 @@ hr {
     padding: 8px 20px;
     position: relative;
     top: 8px;
-    width: 200px;
+    width: 100%;
     z-index: 2;
   }
   .navbar .navbar-collapse .navbar-nav .nav-link {
