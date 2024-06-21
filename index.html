@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
-<html lang="zxx">
+<html lang="en">
   <head>
-    <script src="https://web3forms.com/client/script.js" async defer></script>
+    
     <!-- Required meta tags-->
     <meta charset="utf-8" />
     <!-- Title-->
@@ -43,7 +43,7 @@
     <link rel="stylesheet" href="css/simplebar.min.css" />
     <link rel="stylesheet" href="css/jquery.mb.YTPlayer.min.css" />
     <!-- Main CSS-->
-    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
     <!-- CSS Color scheme-->
     <link
       id="color-scheme"
@@ -52,10 +52,7 @@
     />
     <!-- Custom CSS (Add your custom CSS styles to this file)-->
     <link rel="stylesheet" href="css/custom.css" />
-    <!-- removeIf(customizerDist)-->
-    <link rel="stylesheet" href="../customizer/main.css" />
-    <!-- endremoveIf(customizerDist)-->
-     
+   
   </head>
 
   <body class="theme-dark">
@@ -115,7 +112,7 @@
     <section
       class="home-area element-cover-bg"
       id="home"
-      style="background-image: url(img/home.jpg)"
+      style="background-color: rgb(185, 16, 16)"
     >
       <div class="container h-100">
         <div class="row h-100 align-items-center justify-content-center">
@@ -124,8 +121,8 @@
             <h4 class="cd-headline clip home-headline">
               I’m a
               <span class="cd-words-wrapper single-headline"
-                ><b class="is-visible">Software Developer</b
-                ><b>Full Stack Developer</b><b>Angular Developer</b></span
+                ><b style="font-weight: 800;color:rgb(109, 234, 109)" class="is-visible">Software Developer</b
+                ><b style="font-weight: 800;color:rgb(234, 109, 213)">Full Stack Developer</b><b style="font-weight: 800;color:rgb(109, 182, 234)">Angular Developer</b></span
               >
             </h4>
           </div>
@@ -725,153 +722,69 @@
                   </div>
                 </div>
               </div>
-              <!-- Portfolio section-->
-              <div class="portfolio-section single-section">
-                <div class="row">
-                  <!-- Filter nav-->
-                  <div class="col-12">
-                    <ul
-                      class="list-inline filter-control"
-                      role="group"
-                      aria-label="Filter Control"
-                    >
-                      <li class="list-inline-item tab-active" data-filter="*">
-                        All
-                      </li>
-                      <li class="list-inline-item" data-filter=".brand">
-                        Brand
-                      </li>
-                      <li class="list-inline-item" data-filter=".design">
-                        Design
-                      </li>
-                      <li class="list-inline-item" data-filter=".photos">
-                        Photos
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <!-- Thumbnail list-->
-                <div class="portfolio-grid row">
-                  <!-- Single item-->
-                  <div class="single-item col-6 col-lg-4 design">
-                    <a
-                      class="portfolio-item"
-                      href="img/item-1.jpg"
-                      data-lightbox=""
-                    >
-                      <div class="portfolio-wrapper">
-                        <img
-                          class="img-fluid"
-                          alt="Item"
-                          src="img/item-1.jpg"
-                        />
-                        <div class="item-content">
-                          <h6 class="content-title">Label Tag Mockup</h6>
-                          <span class="content-more">More Info</span>
-                        </div>
+              <!-- Blog section-->
+              <div class="blog-section single-section">
+                <div class="row justify-content-center">
+                  <!-- Single post-->
+                  <div class="col-12 col-sm-8 col-lg-4">
+                    <div class="card single-post">
+                      <a class="post-img"   href="img/certificate/CertificateOfCompletion_Learning Angular.pdf"
+                          data-lightbox=""
+                        ><img
+                          class="card-img-top"
+                          type="pdf"
+                          src="img/certificate/CertificateOfCompletion_Learning Angular.pdf"
+                          alt="Certificate"
+
+                        /></a
+                      >
+                      <div class="card-body post-content">
+                        <a href="#0">
+                          <h5 class="card-title content-title"> “Learning Angular” by Ray Villalobos</h5>
+                        </a>
+                        
                       </div>
-                    </a>
+                    </div>
                   </div>
-                  <!-- Single item-->
-                  <div class="single-item col-6 col-lg-4 photos">
-                    <a
-                      class="portfolio-item"
-                      href="img/item-2.jpg"
-                      data-lightbox=""
+              
+                  <div class="col-12 col-sm-8 col-lg-4">
+                  <div class="card single-post">
+                    <a class="post-img" href=""
+                      ><img
+                        class="card-img-top"
+                        src="img/Projects/wow/book_appointment.PNG"
+                        
+                        alt="Blog post"
+                      /><span class="content-date">2022 - 2023</span></a
                     >
-                      <div class="portfolio-wrapper">
-                        <img
-                          class="img-fluid"
-                          alt="Item"
-                          src="img/item-2.jpg"
-                        />
-                        <div class="item-content">
-                          <h6 class="content-title">3D Bag Mockup</h6>
-                          <span class="content-more">More Info</span>
-                        </div>
-                      </div>
-                    </a>
+                    <div class="card-body post-content">
+                      <a href="#0">
+                        <h5 class="card-title content-title">WOW Health</h5>
+                      </a>
+                      
+                    </div>
                   </div>
-                  <!-- Single item-->
-                  <div class="single-item col-6 col-lg-4 design">
-                    <a
-                      class="portfolio-item"
-                      href="img/item-3.jpg"
-                      data-lightbox=""
-                    >
-                      <div class="portfolio-wrapper">
-                        <img
-                          class="img-fluid"
-                          alt="Item"
-                          src="img/item-3.jpg"
-                        />
-                        <div class="item-content">
-                          <h6 class="content-title">Modern Bag Design</h6>
-                          <span class="content-more">More Info</span>
-                        </div>
-                      </div>
-                    </a>
                   </div>
-                  <!-- Single item-->
-                  <div class="single-item col-6 col-lg-4 brand">
-                    <a
-                      class="portfolio-item"
-                      href="img/item-4.jpg"
-                      data-lightbox=""
-                    >
-                      <div class="portfolio-wrapper">
-                        <img
-                          class="img-fluid"
-                          alt="Item"
-                          src="img/item-4.jpg"
-                        />
-                        <div class="item-content">
-                          <h6 class="content-title">Coffee Cup Design</h6>
-                          <span class="content-more">More Info</span>
-                        </div>
+
+                  <div class="col-12 col-sm-8 col-lg-4">
+                    <div class="card single-post">
+                      <a class="post-img" href="projects/matagas.html"
+                        ><img
+                          class="card-img-top"
+                          src="img/Projects/quran/home.png"
+                          
+                          alt="Blog post"
+                        /><span class="content-date">2022 - 2023</span></a
+                      >
+                      <div class="card-body post-content">
+                        <a href="#0">
+                          <h5 class="card-title content-title">Online Quran</h5>
+                        </a>
+                        
                       </div>
-                    </a>
-                  </div>
-                  <!-- Single item-->
-                  <div class="single-item col-6 col-lg-4 brand">
-                    <a
-                      class="portfolio-item"
-                      href="img/item-5.jpg"
-                      data-lightbox=""
-                    >
-                      <div class="portfolio-wrapper">
-                        <img
-                          class="img-fluid"
-                          alt="Item"
-                          src="img/item-5.jpg"
-                        />
-                        <div class="item-content">
-                          <h6 class="content-title">T-Shirt Design</h6>
-                          <span class="content-more">More Info</span>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                  <!-- Single item-->
-                  <div class="single-item col-6 col-lg-4 photos">
-                    <a
-                      class="portfolio-item"
-                      href="img/item-6.jpg"
-                      data-lightbox=""
-                    >
-                      <div class="portfolio-wrapper">
-                        <img
-                          class="img-fluid"
-                          alt="Item"
-                          src="img/item-6.jpg"
-                        />
-                        <div class="item-content">
-                          <h6 class="content-title">Packaging Box Mockup</h6>
-                          <span class="content-more">More Info</span>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
+                    </div>
+                    </div>
+                 
                 </div>
               </div>
             </div>
@@ -880,7 +793,7 @@
       </div>
     </div>
     <!-- Blog lightbox-->
-    <div class="lightbox-wrapper" id="projects" >
+    <div class="lightbox-wrapper" id="projects" data-simplebar="" >
       <div class="container">
         <div class="lightbox-close">
           <div class="close-btn" data-modal-close="">
@@ -904,145 +817,62 @@
                   <!-- Single post-->
                   <div class="col-12 col-sm-8 col-lg-4">
                     <div class="card single-post">
-                      <a class="post-img" href="projects/matagas.html"
+                      <a class="post-img" href="img/Projects/matagas/login.PNG"
+                      data-lightbox=""
                         ><img
                           class="card-img-top"
                           src="img/Projects/matagas/login.PNG"
                           alt="Blog post"
+
                         /><span class="content-date">2022 - Present</span></a
                       >
                       <div class="card-body post-content">
                         <a href="#0">
                           <h5 class="card-title content-title">MATAGAS</h5>
                         </a>
-                        <p class="card-text content-description">
-                          Lorem ipsum dolor sit amet, consectetur adipisicing
-                          elit. Dolore, porro rem quod illo quam, eum alias id,
-                          repellendus magni, quas.
-                        </p>
+                        
                       </div>
                     </div>
                   </div>
-                  <!-- Single post-->
+              
+                  <div class="col-12 col-sm-8 col-lg-4">
+                  <div class="card single-post">
+                    <a class="post-img" data-lightbox="" href="img/Projects/wow/book_appointment.PNG"
+                      ><img
+                        class="card-img-top"
+                        src="img/Projects/wow/book_appointment.PNG"
+                        
+                        alt="Blog post"
+                      /><span class="content-date">2022 - 2023</span></a
+                    >
+                    <div class="card-body post-content">
+                      <a href="#0">
+                        <h5 class="card-title content-title">WOW Health</h5>
+                      </a>
+                      
+                    </div>
+                  </div>
+                  </div>
+
                   <div class="col-12 col-sm-8 col-lg-4">
                     <div class="card single-post">
-                      <a class="post-img" href="#0"
+                      <a class="post-img" data-lightbox="" href="img/Projects/quran/home.png"
                         ><img
                           class="card-img-top"
-                          src="img/post-2.jpg"
+                          src="img/Projects/quran/home.png"
+                          
                           alt="Blog post"
-                        /><span class="content-date">12 Aug, 20</span></a
+                        /><span class="content-date">2022 - 2023</span></a
                       >
                       <div class="card-body post-content">
                         <a href="#0">
-                          <h5 class="card-title content-title">
-                            Take a tour of my office
-                          </h5>
+                          <h5 class="card-title content-title">Online Quran</h5>
                         </a>
-                        <p class="card-text content-description">
-                          Lorem ipsum dolor sit amet, consectetur adipisicing
-                          elit. Dolore, porro rem quod illo quam, eum alias id,
-                          repellendus magni, quas.
-                        </p>
+                        
                       </div>
                     </div>
-                  </div>
-                  <!-- Single post-->
-                  <div class="col-12 col-sm-8 col-lg-4">
-                    <div class="card single-post">
-                      <a class="post-img" href="#0"
-                        ><img
-                          class="card-img-top"
-                          src="img/post-3.jpg"
-                          alt="Blog post"
-                        /><span class="content-date">4 Feb, 20</span></a
-                      >
-                      <div class="card-body post-content">
-                        <a href="#0">
-                          <h5 class="card-title content-title">
-                            How i became a Web Designer
-                          </h5>
-                        </a>
-                        <p class="card-text content-description">
-                          Lorem ipsum dolor sit amet, consectetur adipisicing
-                          elit. Dolore, porro rem quod illo quam, eum alias id,
-                          repellendus magni, quas.
-                        </p>
-                      </div>
                     </div>
-                  </div>
-                  <!-- Single post-->
-                  <div class="col-12 col-sm-8 col-lg-4">
-                    <div class="card single-post">
-                      <a class="post-img" href="#0"
-                        ><img
-                          class="card-img-top"
-                          src="img/post-4.jpg"
-                          alt="Blog post"
-                        /><span class="content-date">11 Dec, 19</span></a
-                      >
-                      <div class="card-body post-content">
-                        <a href="#0">
-                          <h5 class="card-title content-title">
-                            How to improve work performance
-                          </h5>
-                        </a>
-                        <p class="card-text content-description">
-                          Lorem ipsum dolor sit amet, consectetur adipisicing
-                          elit. Dolore, porro rem quod illo quam, eum alias id,
-                          repellendus magni, quas.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Single post-->
-                  <div class="col-12 col-sm-8 col-lg-4">
-                    <div class="card single-post">
-                      <a class="post-img" href="#0"
-                        ><img
-                          class="card-img-top"
-                          src="img/post-5.jpg"
-                          alt="Blog post"
-                        /><span class="content-date">15 Nov, 19</span></a
-                      >
-                      <div class="card-body post-content">
-                        <a href="#0">
-                          <h5 class="card-title content-title">
-                            How to work from home
-                          </h5>
-                        </a>
-                        <p class="card-text content-description">
-                          Lorem ipsum dolor sit amet, consectetur adipisicing
-                          elit. Dolore, porro rem quod illo quam, eum alias id,
-                          repellendus magni, quas.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Single post-->
-                  <div class="col-12 col-sm-8 col-lg-4">
-                    <div class="card single-post">
-                      <a class="post-img" href="#0"
-                        ><img
-                          class="card-img-top"
-                          src="img/post-6.jpg"
-                          alt="Blog post"
-                        /><span class="content-date">8 Aug, 19</span></a
-                      >
-                      <div class="card-body post-content">
-                        <a href="#0">
-                          <h5 class="card-title content-title">
-                            How to enjoy your business trip
-                          </h5>
-                        </a>
-                        <p class="card-text content-description">
-                          Lorem ipsum dolor sit amet, consectetur adipisicing
-                          elit. Dolore, porro rem quod illo quam, eum alias id,
-                          repellendus magni, quas.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
+                 
                 </div>
               </div>
             </div>
@@ -1218,12 +1048,11 @@
     <script src="js/lity.min.js"></script>
     <script src="js/simplebar.min.js"></script>
     <script src="js/jquery.mb.YTPlayer.min.js"></script>
-    <script src="js/main.js"></script>
+    <script type="application/javascript" src="js/main.js"></script>
     <!-- Custom JS (Add your custom JS scripts to this file)-->
     <script src="js/custom.js"></script>
+    <script src="https://web3forms.com/client/script.js" async defer></script>
     <!-- removeIf(customizerDist)-->
-    <script src="../customizer/main.js"></script>
-    <!-- endremoveIf(customizerDist)-->
-     
+
   </body>
 </html>
